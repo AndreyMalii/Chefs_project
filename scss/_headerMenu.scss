@@ -1,0 +1,70 @@
+.header {
+
+    // .header__container
+
+    &__container {
+        display: flex;
+        max-width: 1332px;
+        margin: 0 auto;
+        padding: 0 15px;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    // .header__logo
+
+
+    &__logo {}
+
+    // .header__navBar
+
+    &__navBar {}
+
+    // .header__items
+
+    &__items {
+        display: flex;
+        gap: 40px;
+    }
+
+    // .header__item
+
+    &__item {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        // line-height: 27px;
+        color: #2C3847;
+        opacity: 0.8;
+        transition: all 0.3s ease;
+
+        &:hover {
+            color: #5FB848;
+        }
+    }
+
+    // .header__click
+
+    &__click {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    // .header__icons
+
+    &__icons {}
+
+    // .header__button
+
+    &__button {}
+}
+
+.logo {
+
+    // .logo__pictureА
+
+    &__pictureА {}
+}

@@ -1,0 +1,23 @@
+.button {
+    cursor: pointer;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    padding: 14px 30px;
+    transition: all 0.6s ease;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    // line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.button:hover {
+    background: #494949;
+}
